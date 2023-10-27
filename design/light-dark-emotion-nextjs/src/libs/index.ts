@@ -7,4 +7,8 @@ export const getGlobalStyles = (theme: ETheme) => css`
     transition: all 1s;
     color: ${theme === ETheme.dark ? "white" : "black"};
   }
+  button {
+    background-color: ${theme === ETheme.dark ? "blue" : "green"};
+    transition: all 1s;
+  }
 `;

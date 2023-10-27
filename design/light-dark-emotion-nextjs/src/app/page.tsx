@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <Main>
       <p>aa</p>
+      <p>bbbbbbbbbbbbbb</p>
       <Button onClick={() => changeTheme()}>button</Button>
     </Main>
   );
