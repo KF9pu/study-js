@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  firsttestmylibrary:
-    specifier: ^1.0.0
-    version: 1.0.0
+  hogreed-utils:
+    specifier: ^1.1.6
+    version: 1.1.6
   next:
     specifier: 13.5.6
     version: 13.5.6(react-dom@18.0.0)(react@18.0.0)
@@ -1055,10 +1055,6 @@ packages:
       to-regex-range: 5.0.1
     dev: true
 
-  /firsttestmylibrary@1.0.0:
-    resolution: {integrity: sha512-CQVpNbvKSm+QDlOqPWQl+85BzCoSxg8irLAAPAu348fsR1/rih70Z25e1WPHaUGDv0h61Utsf0UTtu+hOamPFA==}
-    dev: false
-
   /flat-cache@3.1.1:
     resolution: {integrity: sha512-/qM2b3LUIaIgviBQovTLvijfyOQXPtSRnRK26ksj2J7rzPIecePUIpJsZ4T02Qg+xiAEKIs5K8dsHEd+VaKa/Q==}
     engines: {node: '>=12.0.0'}
@@ -1245,6 +1241,10 @@ packages:
     dependencies:
       function-bind: 1.1.2
     dev: true
+
+  /hogreed-utils@1.1.6:
+    resolution: {integrity: sha512-9U5uz65chT3H5VdpwCfzSphTtIsnAm5U+RZGbeUCHINf8qHXnHCdIIoNAfdsywl8qBYnf3j2A6w+xCAVp7kVUA==}
+    dev: false
 
   /ignore@4.0.6:
     resolution: {integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==}
