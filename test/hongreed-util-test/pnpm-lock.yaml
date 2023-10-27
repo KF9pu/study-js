@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  hogreed-utils:
+    specifier: ^1.0.2
+    version: 1.0.2
+
+packages:
+
+  /hogreed-utils@1.0.2:
+    resolution: {integrity: sha512-ciju8NMNsoZLs1QNCQa1zfj2gA00h+z4bdvVAKR0VpORAlVSrt1HIbc8mZKbRkhGBSIjs6oQ3lvfLAU13W/Y+w==}
+    dev: false
