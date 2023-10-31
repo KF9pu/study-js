@@ -1,7 +1,7 @@
 export default function getYoutubeEmbedUrl(url: string) {
   // 정규식 패턴을 사용하여 다양한 YouTube URL 형식을 처리
   const youtubeUrlRegex =
-    /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=|embed\/|v\/|watch\?list=)?([\w-]+)/;
+    /(?:http(?:s)?:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=|embed\/|v\/|watch\?list=|shorts\/)?([A-Za-z0-9_-]+)/;
   const match = url.match(youtubeUrlRegex);
 
   if (match && match[1]) {
