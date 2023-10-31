@@ -1,1 +1,1 @@
-export default function getYoutubeEmbedUrl(inputUrl: string): string;
+export default function convertToEmbedUrl(url: string): string;
