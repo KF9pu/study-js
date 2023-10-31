@@ -1,6 +1,4 @@
 import { createFilenameByDate } from "./date";
-declare function add(a: number, b: number): number;
-declare function subtract(a: number, b: number): number;
-declare function multiply(a: number, b: number): number;
-declare function divide(a: number, b: number): number;
-export { add, subtract, multiply, divide, createFilenameByDate };
+import { cls } from "./text";
+import getYoutubeEmbedUrl from "./youtube/getYoutubeEmbedUrl";
+export { createFilenameByDate, cls, getYoutubeEmbedUrl };

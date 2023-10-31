@@ -8,5 +8,5 @@ export default function getYoutubeEmbedUrl(inputUrl: string) {
     return `https://www.youtube.com/embed/${videoId}`;
   }
 
-  return null; // 유효한 YouTube URL 형식이 아닌 경우
+  return inputUrl; // 유효한 YouTube URL 형식이 아닌 경우
 }
