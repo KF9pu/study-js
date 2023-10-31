@@ -1,16 +1,5 @@
 import { createFilenameByDate } from "./date";
+import { cls } from "./text";
+import getYoutubeEmbedUrl from "./youtube/getYoutubeEmbedUrl";
 
-// src/index.ts
-function add(a: number, b: number) {
-  return a + b;
-}
-function subtract(a: number, b: number) {
-  return a - b;
-}
-function multiply(a: number, b: number) {
-  return a * b;
-}
-function divide(a: number, b: number) {
-  return a / b;
-}
-export { add, subtract, multiply, divide, createFilenameByDate };
+export { createFilenameByDate, cls, getYoutubeEmbedUrl };
