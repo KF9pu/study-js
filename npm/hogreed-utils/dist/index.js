@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+exports.createFilenameByDate = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+const date_1 = require("./date");
+Object.defineProperty(exports, "createFilenameByDate", { enumerable: true, get: function () { return date_1.createFilenameByDate; } });
 // src/index.ts
 function add(a, b) {
     return a + b;

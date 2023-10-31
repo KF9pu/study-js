@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   hogreed-utils:
-    specifier: ^0.0.2
-    version: 0.0.2
+    specifier: ^0.0.3
+    version: 0.0.3
   next:
     specifier: 13.5.6
     version: 13.5.6(react-dom@18.0.0)(react@18.0.0)
@@ -1242,8 +1242,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hogreed-utils@0.0.2:
-    resolution: {integrity: sha512-QmUIz5nEdCKTkRgaBKkbA2iQXyoC0QMJdjXg53pSC2XunNkLKptuv4vEqHez0tOjcer2cMx9K/nF1+lKQ0PGCg==}
+  /hogreed-utils@0.0.3:
+    resolution: {integrity: sha512-/JzuQfr47W/h8vdW5Gu9yUShnD9R0RejgIea6rVAgy1twHFoSZ6mW/ZFaxy8uEamSNp7NpDs+CDRnlkhOBItHw==}
     dev: false
 
   /ignore@4.0.6:

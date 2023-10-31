@@ -1,3 +1,5 @@
+import { createFilenameByDate } from "./date";
+
 // src/index.ts
 function add(a: number, b: number) {
   return a + b;
@@ -11,4 +13,4 @@ function multiply(a: number, b: number) {
 function divide(a: number, b: number) {
   return a / b;
 }
-export { add, subtract, multiply, divide };
+export { add, subtract, multiply, divide, createFilenameByDate };
