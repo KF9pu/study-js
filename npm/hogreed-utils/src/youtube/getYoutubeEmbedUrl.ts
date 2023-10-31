@@ -1,12 +1,14 @@
-export default function getYoutubeEmbedUrl(inputUrl: string) {
-  const youtubeUrlRegex =
-    /(?:http(?:s)?:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=|embed\/|v\/|watch\?list=)([\w-]+)/;
-  const match = inputUrl.match(youtubeUrlRegex);
-
-  if (match && match[1]) {
-    const videoId = match[1];
-    return `https://www.youtube.com/embed/${videoId}`;
+export default function getYoutubeEmbedUrl(inputUrl: string): string {
+  try {
+    const url = new URL(inputUrl);
+    if (url.hostname === "www.youtube.com" || url.hostname === "youtu.be") {
+      const searchParams = new URLSearchParams(url.search);
+      const videoId = searchParams.get("v") || url.pathname.split("/").pop();
+      if (videoId) {
+        return `https://www.youtube.com/embed/${videoId}`;
+      }
+    }
+  } finally {
+    return inputUrl; // YouTube URL 형식이 아닌 경우 입력된 URL을 그대로 반환
   }
-
-  return inputUrl; // 유효한 YouTube URL 형식이 아닌 경우
 }
