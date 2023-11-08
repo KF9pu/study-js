@@ -1,0 +1,26 @@
+{
+  "name": "bundler-test",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "prepack": "pnpm run build",
+    "build": "pnpm run build:tsc",
+    "build:tsc": "tsc"
+  },
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./src/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
