@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { add } from "bundler-test";
+import { Button } from "bunbler-test-components";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <p>{add(5, 2)}</p>
+        <Button>aa</Button>
       </main>
     </>
   );

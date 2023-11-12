@@ -12,11 +12,20 @@ npm version patch
 
 npm version minor
 
-###### 세팅하기
+###### 모듈 세팅하기
 
-1. mkdir [name]
-2. cd [name]
+1. mkdir [projectName]
+2. cd [projectName]
 3. npm init -y
-4. npm install --save-dev rollup rollup-plugin-node-resolve rollup-plugin-commonjs rollup-plugin-typescript2 @rollup/plugin-json
-5. rollup.config.js 파일 생성
-6.
+4. npm i -D rollup rollup-plugin-typescript2 @rollup/plugin-json
+5. rollup.config.js 파일 세팅
+
+##### components 세팅하기
+
+1. mkdir [projectName]
+2. cd [projectName]
+3. npm init -y
+4. npm i -D rollup rollup-plugin-babel rollup-plugin-node-resolve rollup-plugin-peer-deps-external rollup-plugin-commonjs @svgr/rollup rollup-plugin-url rollup-plugin-typescript2 @rollup/plugin-json babel-preset-react-app @babel/plugin-proposal-private-property-in-object
+5. npm install --save-peer react react-dom react-spring @emotion/core
+6. rollup.config.js 파일 세팅
+7. .babelrc 파일 세팅

@@ -1,0 +1,33 @@
+{
+  "name": "bunbler-test-components",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c && tsc --emitDeclarationOnly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@rollup/plugin-json": "^6.0.1",
+    "@svgr/rollup": "^8.1.0",
+    "babel-preset-react-app": "^10.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-url": "^3.0.1"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-spring": "^9.7.3"
+  }
+}
