@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6" /* 최신 브라우저는 es6을 대부분 지원한다. */,
-    "module": "CommonJS" /* 모듈 시스템을 지정한다. */,
+    "module": "ESNext" /* 모듈 시스템을 지정한다. */,
     "lib": [
       "es5",
       "es6",
@@ -11,5 +11,6 @@
     "outDir": "dist" /* 컴파일된 결과물을 어디에 저장할지에 대한 것을 명시해 준다. */,
     "strict": true /* 타입스크립트의 엄격한 모드를 활성화한다. */
   },
-  "include": ["src/index.ts"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

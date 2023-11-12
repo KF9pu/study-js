@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bundle-test": "^1.0.3",
-    "bundler-test": "^1.1.0",
-    "hogreed-utils": "^1.0.2",
-    "rollup-test-hong": "^0.0.5"
+    "bundler-test": "^0.2.7"
   }
 }

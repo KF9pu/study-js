@@ -6,25 +6,11 @@ settings:
 
 dependencies:
   bundler-test:
-    specifier: ^0.0.7
-    version: 0.0.7
-  hogreed-utils:
-    specifier: ^1.0.2
-    version: 1.0.2
-  rollup-test-hong:
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.1.1
+    version: 0.1.1
 
 packages:
 
-  /bundler-test@0.0.7:
-    resolution: {integrity: sha512-YV/glkEePw1pqOOwX38Uo+i4TLR25775QOk726f5HXnaw1CUIldLd5949Es6smM7NMCS5UauXM0Q32XdW5dLIg==}
-    dev: false
-
-  /hogreed-utils@1.0.2:
-    resolution: {integrity: sha512-ciju8NMNsoZLs1QNCQa1zfj2gA00h+z4bdvVAKR0VpORAlVSrt1HIbc8mZKbRkhGBSIjs6oQ3lvfLAU13W/Y+w==}
-    dev: false
-
-  /rollup-test-hong@0.0.5:
-    resolution: {integrity: sha512-E7p1//E1L+YB07VA2aKwuUhqIV2Jwp78lMluOmI/r5w22/h9hjUwMwdK8BsTcpUacmVqK8rc4KZ9Fi50vRhWpQ==}
+  /bundler-test@0.1.1:
+    resolution: {integrity: sha512-seSCiskxlPNEr385YJ6dzlWer/zYwwJ+fNHP+sQf9mMpNyjJpzMQm+rAYBSM4iG6jsfdzojJFRCMZ0d0da5kMw==}
     dev: false

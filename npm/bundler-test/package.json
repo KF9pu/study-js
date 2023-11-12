@@ -1,26 +1,20 @@
 {
   "name": "bundler-test",
-  "version": "0.0.1",
+  "version": "0.2.9",
   "description": "",
   "scripts": {
-    "prepack": "pnpm run build",
-    "build": "pnpm run build:tsc",
-    "build:tsc": "tsc"
+    "build": "rollup -c"
   },
-  "type": "commonjs",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./src/index.cjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "main": "dist/index.js",
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
-    "@types/node": "^20.9.0",
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.3.1",
+    "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.2.2"
   }
 }
