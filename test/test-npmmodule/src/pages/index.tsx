@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import { add } from "bundler-test";
 import { Button } from "bunbler-test-components";
 
@@ -12,9 +11,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main}`}>
-        <p>{add(5, 2)}</p>
-        <Button>aa</Button>
+      <main>
+        <div className="flex w-ull justify-center flex-col">
+          <p>{add(5, 2)}</p>
+          <Button className="">aa</Button>
+        </div>
       </main>
     </>
   );

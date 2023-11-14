@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.TextButton {
+  background: rgba(172, 238, 187, 1);
+}
