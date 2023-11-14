@@ -31,3 +31,8 @@ npm version minor
 7. .babelrc 파일 세팅
 8. npx tailwindcss init -> tailwind.config.js 세팅
 9. styles.css 세팅
+10. postcss.config.js 세팅
+
+### 노션 링크
+
+https://horse-session-529.notion.site/npm-fcd33673273e4cc7b2555b723c7eb13c?pvs=4

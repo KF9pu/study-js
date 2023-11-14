@@ -2,12 +2,12 @@
   "name": "bundler-test",
   "version": "0.2.9",
   "description": "",
-  "scripts": {
-    "build": "rollup -c"
-  },
   "author": "",
   "license": "ISC",
   "keywords": [],
+  "scripts": {
+    "build": "rollup -c"
+  },
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
   "devDependencies": {

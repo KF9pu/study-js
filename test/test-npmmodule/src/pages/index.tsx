@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { add } from "bundler-test";
-import { Button } from "bunbler-test-components";
+// import { Button } from "bunbler-test-components";
+import { Button } from "hsh-components-tailwind-green";
+import { cls } from "hsh-utils-string";
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
       </Head>
       <main>
         <div className="flex w-ull justify-center flex-col">
-          <p>{add(5, 2)}</p>
-          <Button className="">aa</Button>
+          <p className={cls("flex justify-center", "w-full h-[600px]")}>
+            {add(5, 2)}
+          </p>
+          <Button className={cls("")}>aa</Button>
         </div>
       </main>
     </>

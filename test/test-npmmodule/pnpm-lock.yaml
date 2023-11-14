@@ -14,6 +14,12 @@ dependencies:
   hogreed-utils:
     specifier: ^0.0.3
     version: 0.0.3
+  hsh-components-tailwind-green:
+    specifier: 0.0.1
+    version: 0.0.1(react-dom@18.0.0)(react-spring@9.7.3)(react@18.0.0)
+  hsh-utils-string:
+    specifier: 1.0.0
+    version: 1.0.0
   next:
     specifier: 13.5.6
     version: 13.5.6(@babel/core@7.23.3)(react-dom@18.0.0)(react@18.0.0)
@@ -4046,6 +4052,22 @@ packages:
 
   /hogreed-utils@0.0.3:
     resolution: {integrity: sha512-/JzuQfr47W/h8vdW5Gu9yUShnD9R0RejgIea6rVAgy1twHFoSZ6mW/ZFaxy8uEamSNp7NpDs+CDRnlkhOBItHw==}
+    dev: false
+
+  /hsh-components-tailwind-green@0.0.1(react-dom@18.0.0)(react-spring@9.7.3)(react@18.0.0):
+    resolution: {integrity: sha512-jL+IM0euVyVH7Rh1/g1M3J0wsvFzrpkYi5X16r1VIe8F2jx7wpRMi1StjGUxPe3XeMTPhfVtQhJA63QiyQaADg==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      react-spring: ^9.7.3
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0(react@18.0.0)
+      react-spring: 9.7.3(@react-three/fiber@8.15.10)(konva@9.2.3)(react-dom@18.0.0)(react-konva@18.2.10)(react-native@0.72.6)(react-zdog@1.2.2)(react@18.0.0)(three@0.158.0)(zdog@1.1.3)
+    dev: false
+
+  /hsh-utils-string@1.0.0:
+    resolution: {integrity: sha512-iQV0xs3SNdM4k0+tmB28wn/BNsKoEDwwNhqtSnY6IukyXxKwwspGinoVLLm8jXZpUJwrIfZ/2cNMnVL3Z9ZSzw==}
     dev: false
 
   /http-errors@2.0.0:
